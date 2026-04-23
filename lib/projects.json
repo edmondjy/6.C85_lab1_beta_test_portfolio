@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Instacart Market and Customer Analysis",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Processed and structured massive datasets from CSV files into a local SQLite database utilizing Python, laying the groundwork for complex SQL analysis of product association rules.",
+    "highlights": [
+      "Engineered high-performance SQL queries utilizing CTEs and advanced JOINs.",
+      "Extracted key business metrics calculating reorder rates and peak shopping hours."
+    ]
+  },
+  {
+    "title": "TikTok EDA",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Conducted Exploratory Data Analysis on a dataset of 19k TikTok videos to investigate engagement patterns and content moderation.",
+    "highlights": [
+      "Engineered features from text data and visualized correlations.",
+      "Revealed that 'claim' content drives higher engagement but correlates with a 3x higher ban rate."
+    ]
+  },
+  {
+    "title": "Tree and Money in NYC",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Analyzed and visualized urban forestry data for New York City to identify patterns in tree concentration, health, and income correlations.",
+    "highlights": [
+      "Developed an interactive dashboard showcasing key metrics like tree health across different income levels.",
+      "Communicated complex data relationships through clear geographic maps."
+    ]
+  },
+  {
+    "title": "Twitch Influence On Game Popularity",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Performed exploratory data analysis and applied regression models to quantify the influence of streaming popularity on game sales and ratings.",
+    "highlights": [
+      "Collected, cleaned, and merged datasets using Python (Pandas, NumPy) and APIs from Twitch.",
+      "Visualized insights through interactive dashboards using Matplotlib, Seaborn, and Plotly."
+    ]
+  },
+  {
+    "title": "Modern PC Component Catalog",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Created a structured catalog of modern PC components—such as processors, graphics cards, and memory—to simulate a realistic custom PC building experience and optimize compatibility."
+  }
+]
