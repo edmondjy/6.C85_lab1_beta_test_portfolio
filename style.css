@@ -135,3 +135,74 @@ h1 {
   margin: 0;                             
   font-size: 2em;                        
 }
+
+.project-year {
+  font-family: Baskerville, serif;
+  font-variant-numeric: oldstyle-nums;
+  color: gray; 
+  margin: 0;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+  gap: 2em; 
+  margin-block: 2em; 
+}
+
+.legend {
+  flex: 1; 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1.5em; 
+  padding: 1.5em;
+  border: 1px solid var(--border-color); 
+  border-radius: 8px; 
+  list-style: none; 
+  margin: 0; 
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em; 
+}
+
+.swatch {
+  width: 1.2em;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 15%; 
+  display: inline-block;
+}
+
+.searchBar {
+  width: 100%;
+  padding: 0.75em;
+  font-size: 1.1em;
+  margin-bottom: 2em;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+#projects-pie-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+}
+
+path.selected {
+  fill: var(--color);
+}
+
+path {
+  cursor: pointer;
+}
